@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesCv.css">    
+    <title>CV Rigoberto Rios</title>
+</head>
+<body>
+    <div class="container-sm mt-3">
+        <div id="Titulo">
+            <div class="row">
+                <div class="col align-self-center">
+                    <img src="./assets/images/Rigo.jpg" alt="" class="rounded-circle">
+                </div>
+                <div class="col align-self-center">
+                    <div class="row"><h1>RIGOBERTO</h1></div>
+                    <div class="row"><h1>RIOS HUESO</h1></div>
+                    <div class="row subElectIng"><h3>INGENIERO ELECTRÓNICO</h3></div>
+                    <div class="row subElectIng">
+                        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                            <div class="container-fluid">
+                              <a class="navbar-brand btnRigo" onclick="descripcion()">
+                                <button type="button" class="btn btn-outline-primary btn-sm">Descripción</button>
+                            </a>
+                              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                              </button>
+                              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                  <li class="nav-item">
+                                    <a class="navbar-brand btnRigo" onclick="experiencia()">
+                                        <button type="button" class="btn btn-outline-primary btn-sm">Experiencia</button>
+                                        </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="navbar-brand btnRigo" onclick="educacion()">
+                                        <button type="button" class="btn btn-outline-primary btn-sm">Educación</button></a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="navbar-brand btnRigo" onclick="skills()">
+                                        <button type="button" class="btn btn-outline-primary btn-sm">Skills</button>
+                                    </a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="navbar-brand btnRigo" onclick="hobbies()">
+                                        <button type="button" class="btn btn-outline-primary btn-sm">Hobbies</button>
+                                    </a>
+                                  </li>
+                                  
+                                </ul>
+                                
+                              </div>
+                            </div>
+                          </nav>
+                    </div>
+                </div>
+                <div class="col datos align-self-center">
+                    <ul>
+                        <li>Móvil: 3106777777</li>
+                        <li>CC: 18129164</li>
+                        <li>MP: CN206-68387</li>
+                        <li>Bogotá - Colombia</li>                        
+                        <li>E-mail: rigoriosh@gmail.com</li>
+                        <li><a href="https://github.com/rigoriosh" target="_blank" class="link-dark">https://github.com/rigoriosh</a></li>                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="spiner" style="height: 100%;">
+            <div class="d-flex justify-content-center mt-5">
+                <div class="spinner-border text-primary " role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <div id="DescripcionPersonal">
+            <h1>Descripción Personal</h1>
+            <ul>
+                <li>
+                    Me considero una persona facil de tratar, proactiva, colaboradora, responsable y comprometida
+                </li>
+                <li>
+                    <hr>
+                </li>
+                <li>En lo laboral tengo 2 años (2018 a 2020) de experiencia como desarrollador de software en el Instituto Geográfico Agustín Codazzi,
+                    desarrollando aplicaciones web para sistemas de información geográfica (visores geográficos) y 
+                    aplicaciones PWA's. En donde adquirí experiencia es las siguientes tecnologías: 
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li> <a href="https://developers.arcgis.com/javascript/3/" target="_blank" class="link-info">API ArcGis for JavaScript 3.2</a></li>
+                        <li><a href="https://dojotoolkit.org/" target="_blank" class="link-info">Dojo</a></li>                        
+                        <li>Bootstrap</li>
+                        <li>Vue js</li>
+                        <li>Consumiendo información atra vez de WMS (Service web map) y servicios web rest</li>                        
+                        <li>GitLab</li>
+                        <li>GitHub</li>
+                    </ul> 
+                </li>
+                <li>
+                    <hr>
+                </li>
+                <li>También 7 años (2013-2020) como instructor en el 
+                    <span> <a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank" class="link-info">SENA</a> </span> (Servicio Nacional de Aprendizaje), en la titulación tecnológica de Mantenimiento
+                    Electrónico e instrumental industrial.</li>                
+            </ul>
+        </div>
+        <div id="ExperienciasLaborales">
+            <h1>Experiencias Laborales</h1>
+            <ul>
+                <li>
+                    <h4>INSTITUTO GEOGRÁFICO AGUSTIN CODAZZI (IGAC)</h4>
+                    <h6>Tels: 57-1-3694087 / 57-1-3694100 Ext. 91305 Bogotá</h6>
+                    <h5><span class="badge bg-info rounded-pill">CARGO:</span>Desarrollador de software</h5>
+                    <h5><span class="badge bg-info rounded-pill">FUNCIONES:</span> Desarrollando web y PWA's, para sistemas de información geográfica.</h5>
+                    <h5><span class="badge bg-info rounded-pill">TIEMPO LABORADO: 2 años</span> Contratos 2018 - 2020</h5>
+                </li>
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4>SERVICIO NACIONAL DE APRENDIZAJE (SENA)</h4>
+                    <h6>PBX 5960050 IP 14917 Bogotá</h6>
+                    <h5><span class="badge bg-info rounded-pill">CARGO:</span>Instructor Técnico</h5>
+                    <h5><span class="badge bg-info rounded-pill">FUNCIONES:</span> Realizando acciones de formación titulada de forma presencial en Mantenimiento
+                        electrónico e Instrumental Industrial.</h5>
+                    <h5><span class="badge bg-info rounded-pill">TIEMPO LABORADO: 7 años</span> Contratos 2018 - 2020</h5>
+                </li>
+                <li></li>                
+            </ul>
+        </div>
+        <div id="Educacion">
+            <h1>Educación</h1>
+            <ul>
+                <li>
+                    <h4>Ingeniero Electrónico</h4>
+                    <h6><a href="https://www.ulibertadores.edu.co/facultad-ingenieria/ingenieria-electronica/" target="_blank">Fundación Universitaria Los Libertadores; Graduado 15 de diciembre 2009</a></h6>
+                </li>
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4>Análisis y desarrollo de sistemas de información</h4>
+                    <h6><a href="http://oferta.senasofiaplus.edu.co/sofia-oferta/" target="_blank">Servicio Nacional de aprendizaje SENA, Actualmente</a></h6>
+                </li>
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4>Técnico profesional en Mantenimiento Electrónico</h4>
+                    <h6><a href="https://cun.edu.co/" target="_blank">
+                        Corporación Unificada Nacional de Educación Superior; Graduado, 20/04/2007
+                    </a></h6>
+                </li>
+                
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4>Técnico en Sistemas</h4>
+                    <h6><a href="https://inesup.edu.co/" target="_blank">
+                        INESUP; Graduado, 31/03/2000
+                    </a></h6>
+                </li>
+            </ul>
+        </div>        
+        <div id="Skills">
+            <h1>Skills</h1>
+            <h4>He realizado los siguientes cursos:</h4>
+            <ul>
+                <li>
+                    <h4>
+                        <a href="https://www.udemy.com/course/angular-2-fernando-herrera/" target="_blank">Angular 11 <span class="badge bg-dark rounded-pill">actualmente</span></a></h4>                
+                </li>            
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4>
+                        <a href="https://www.udemy.com/course/react-cero-experto/" target="_blank">React <span class="badge bg-dark rounded-pill">actualmente</span>
+                        </a>
+                    </h4>
+                </li>            
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4><a href="./pdf/diploma-python.pdf" target="_blank">Python</a></h4>
+                </li>            
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4><a href="./pdf/diploma-MachineLearningWithPython.pdf" target="_blank">Machine Learning Aplicado con Python</a></h4>
+                </li>            
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4><a href="./pdf/diploma-ingenieria-datos.pdf" target="_blank">Ingeniería de datos con Python</a></h4>
+                </li>            
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4><a href="./pdf/diploma-ibm-watson.pdf" target="_blank">Inteligencia Artificial con IBM Watson</a></h4>                
+                </li>            
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4><a href="./pdf/diploma-matematicas-ai.pdf" target="_blank">Fundamentos matemáticos para Inteligencia Artificial</a></h4>
+                </li>            
+                <li>
+                    <hr>
+                </li>
+                <li>
+                    <h4><a href="./pdf/Certificado Taller QGIS_RigobertoRios.pdf" target="_blank">Introducción al desarrollo de plugins para QGIS 3 con Python</a></h4>
+                </li> 
+                <li>
+                    <hr>
+                </li> 
+                <li>
+                    <h4><a href="./pdf/CartografiaDigAmbSIG0617.pdf" target="_blank">Cartografía Digital</a></h4>
+                </li>  
+                        
+            </ul>                
+        </div>        
+        <div id="Hobbies">
+            <h1>Hobbies</h1>
+        </div>
+    </div>   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script> 
+    <script src="./js/main.js"></script>
+</body>
+</html>
