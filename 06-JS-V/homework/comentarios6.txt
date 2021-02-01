@@ -1,0 +1,11 @@
+prototype:
+    Es por donde se agregan metodo a un objeto. ejm: 
+        miObjeto.prototype.miMetodo = () => console.log('imprimo algo') // se colocolo el metodo
+
+        miObjeto.miMetodo(); // ejecuto el metodo
+
+Constructors (de Clases)
+    Es el metodo que tiene toda clase y que se ejecuta automaticamente cuando la clase es instanciada, el constructur se emplea para definir el estado de propiedades
+    batributos que tiene clase, se emplea la palabra this para referirnos a las propiedades de la clase; y para ejecutar algun bloque de codigo por defecto, como
+    puede ser la conexión a una base de datos.
+

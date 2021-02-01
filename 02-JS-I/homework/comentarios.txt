@@ -1,0 +1,16 @@
+Variables:
+    Es un lugar en la memoria del pc en donde podemos almacenar información que en la logica del programa se necesitará leer y modificar, en pro de que l programa funcione.
+
+Strings:
+    Es la clasificación que se le da a las letras o palabras.
+
+Funciones (argumentos, return):
+    Son bloques de codigo que se encarga de realizar tareas especifícas en la lógica general del programa, en donde un programa esta compuesto por muchas funciones, 
+    las funciones o bloques de codigo nos ayuda a realizar un codigo con mayor claridad.
+    Las funciones puede o no, recibir parametros, tambien pueden o no entregar información hacer utilizada en otras secciones del programa.
+
+Declaraciones if:
+    Es una estructura que nos ayuda a ejecutar algunos bloques de codigos segun la necesidad del programa.
+
+Valores booleanos (true, false):
+    Es un tipo de dato que se emplea para saber si alguna información (numeros, strings, arrays, ...) es exactamente igual a algo que el programa necesita.

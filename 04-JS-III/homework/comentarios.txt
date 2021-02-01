@@ -1,0 +1,4 @@
+Arrays:
+
+    es un tipo de ojeto en donde podemos almacenar datos de forma temporal, pueden ser de diferentes tipos de datos, incluso se pueden almacenar otros objetos, 
+    u otros arrays

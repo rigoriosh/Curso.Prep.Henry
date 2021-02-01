@@ -1,0 +1,7 @@
+for:
+    Tambien es una de las estructuras que nos ayuda a ejecutar un bloque de codigo segun la necesidad del programa. Dentro de un for pueden existir muchoas mas estructuras
+    de programación como lo son if's, for's, while's, switch case's...
+
+&&, ||, ! :
+    son operadores lógicos que nos ayudan a realizar expresiones lógicas, && hace referencia a una compuerta AND, || hace referencia a una compuerta OR y ! hace referencia 
+    a una compuerta NOT o negaión del estado de la entrada.

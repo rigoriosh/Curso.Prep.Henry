@@ -1,0 +1,43 @@
+Objetos:
+
+    es el lugar en donde podemos almacenar datos de forma temporal o de tipo estatica pero ordenada segun una clave, en donde cada dato tiene una clave y su
+    respectivo valor o información, las claves pueden ser numeros o strings, y los datos pueden ser cualquier tipo de dato, incluso objetos o arreglos.
+
+    ej: miObjeto = {
+        claveA: 45,
+        5: 'un string',
+        dato3: [1, 2, unVariable]
+    }
+
+Propiedades:
+    Normalmente es lo que esperan algunos metodos configurados a esperar propiedades (o atributos), tambien se le dicen propiedades a las claves de un objetos,
+    en el ejemplo anterior el objeto 'miObjeto' tiene tres propiedades que son claveA, 5 y dato3.
+
+    en el ejemplo siguiente se relaciona una funcion con propiedades
+
+    function ejemFunciConPro( propiedad1, propiedad2){
+        // ...codigo
+    }
+
+Métodos:
+    Podriamos decir que es lo mismo que una función, ose realizan lo mismo, ejecutar un bloque de codigo, normalmente se le dice metodos cuando estan dentro de 
+    una clase.
+
+Bucle for...in:
+    un forin es el que nos ayuda a recorre un objeto, nos presenta cada clave y valor de un objeto.
+
+Notación de puntos vs notación de corchetes:
+    Ambos se utilizan en el trabajo de objetos, en donde la notación por punto es la forma de referirnos a una propiedad o un metodo dentro de un objeto y 
+    la notación del corchetes hace lo mismo pero empleando dentro de corchetes la propiedad.
+
+    Ej:
+
+    // Notación de puntos
+
+    datoX = algunObjeto.registrado; //propiedad
+    algunObjeto.mostrarInfo();      // metodo
+
+    // Notación de corchetes
+
+    datoX = algunObjeto['registrado'];  //propiedad
+    algunObjeto['mostrarInfo']();       // metodo 

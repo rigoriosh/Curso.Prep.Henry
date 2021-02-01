@@ -28,5 +28,5 @@ hobbies = () => {
     prender('Hobbies');
 }
 
-prender('Hobbies');
+prender('Skills');
 document.getElementById('spiner').style.display = 'none';

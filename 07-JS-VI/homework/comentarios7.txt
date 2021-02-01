@@ -1,0 +1,19 @@
+Funciones Callback:
+
+    Son funciones que reciben entre sus parametros una función, la ejecutan y retornan una respuesta.
+
+    1. creo una funcion por defecto
+
+    function sumar(a, b){
+        return a + b;
+    }
+
+    2.creo una funcion que recibe entre sus parametrso una funcion que seria la Callback
+
+    function doOperation(a, b, cb){
+        return cb(a,b);
+    }
+
+    3. ejecuto la función enviadole los parametros incluido la función Callback
+
+    doOperation(5,3,sumar);
